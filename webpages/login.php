@@ -13,8 +13,8 @@
 	<div class="login">
 		<div class="block1">
 			<form action="" method="">
-				<img src="images/user.png" id="user">
-				<img src="images/Fuser.png" id="fuser">
+				<img src="../images/user.png" id="user">
+				<img src="../images/Fuser.png" id="fuser">
 				<div class="form_input">
 					<input type="text" name="usr_name" placeholder="Username">
 					<br/>

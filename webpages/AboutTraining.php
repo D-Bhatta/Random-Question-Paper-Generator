@@ -11,16 +11,16 @@
 
                 <table width=100%>
                         <tr style="background:#002D59;">
-                        <td><center><img src=../Images/Logo/13.jpg height="100px" weight="100px" alt="Logo"></center></td>
+                        <td><center><img src=../images/Logo/13.jpg height="100px" weight="100px" alt="Logo"></center></td>
                         <td style="text-align:center;font-size:36px;font-weight:bold; color:#FFF">Jis University</td>
-                        <td><center><img src="../Images/Logo/TgxTi8BF_400x400.jpg" height="100px" weight="100px" alt="Logo"></center></td>
+                        <td><center><img src="../images/Logo/TgxTi8BF_400x400.jpg" height="100px" weight="100px" alt="Logo"></center></td>
                     </tr>
                 </table>
 
                 <table width="100%" border="0">
                         <tr>
                             <td>
-                                <img src="../Images/Banner/Braddon-Dental-Internal-Banner-About.png" width="100%" height="80%">
+                                <img src="../images/Banner/Braddon-Dental-Internal-Banner-About.png" width="100%" height="80%">
                             </td>
                         </tr>
                     </table>

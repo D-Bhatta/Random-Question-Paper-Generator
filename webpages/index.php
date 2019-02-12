@@ -2,7 +2,7 @@
 <table width="100%" border="0">
         <tr>
             <td>
-                <img src="../Images/Banner/Methodologies.jpg" width="100%" height="80%">
+                <img src="../images/Banner/Methodologies.jpg" width="100%" height="80%">
             </td>
         </tr>
     </table>

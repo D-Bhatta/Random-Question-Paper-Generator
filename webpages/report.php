@@ -6,9 +6,9 @@
    <body>
        <table width="100%" border="0">
         <tr style="background-color:#CC0" border="0">
-            <td><img src="images/logo/img 2.jpg" width="100px" height="100px" alt="logo" /></td>
+            <td><img src="../images/logo/img 2.jpg" width="100px" height="100px" alt="logo" /></td>
             <td style="text-align:center;font-size:24px;font-weight:bold;">JIS UNIVERSITY</td>
-            <td><img src="images/logo/img 2.jpg" width="100px" height="100px" alt="logo" /></td>
+            <td><img src="../images/logo/img 2.jpg" width="100px" height="100px" alt="logo" /></td>
 
         </tr>
     </table>

@@ -13,7 +13,7 @@ $header=<<<'EOD'
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link href="https://fonts.googleapis.com/css?family=Dekko|Josefin+Sans|Libre+Barcode+128+Text" rel="stylesheet">
-	<link rel="../css/stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="../css/style.css">
 
 </head>
 <body>
@@ -23,9 +23,9 @@ $header=<<<'EOD'
 
 <table width=100%>
         <tr style="background:#002D59;">
-        <td><center><img src=../Images/Logo/13.jpg height="100px" weight="100px" alt="Logo"></center></td>
+        <td><center><img src=../images/Logo/13.jpg" height="100px" weight="100px" alt="Logo"></center></td>
         <td style="text-align:center;font-size:36px;font-weight:bold; color:#FFF"><a href="index.php">Random Question Paper Generator</a></td>
-        <td><center><img src="../Images/Logo/TgxTi8BF_400x400.jpg" height="100px" weight="100px" alt="Logo"></center></td>
+        <td><center><img src="../images/Logo/TgxTi8BF_400x400.jpg" height="100px" weight="100px" alt="Logo"></center></td>
     </tr>
 </table>
 
