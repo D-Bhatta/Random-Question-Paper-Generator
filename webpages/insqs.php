@@ -6,31 +6,31 @@
   <form action="insqs_verify.php">
     <div class="form-group">
       <label for="email">Questions</label>
-      <input type="Questions" class="form-control" id="Questions"  name="Questions">
+      <input type="Questions" class="form-control" id="Questions"  name="qns">
     </div>
     <div class="form-group">
       <label for="pwd">Option 1:</label>
-      <input type="Option 1:" class="form-control" id="Option 1:"  name="Option 1:">
+      <input type="Option 1:" class="form-control" id="Option 1:"  name="o1">
     </div>
     <div class="form-group">
       <label for="pwd">Option 2:</label>
-      <input type="Option 2:" class="form-control" id="Option 2:"  name="Option 2:">
+      <input type="Option 2:" class="form-control" id="Option 2:"  name="o2">
     </div>
     <div class="form-group">
       <label for="pwd">Option 3:</label>
-      <input type="Option 3:" class="form-control" id="Option 3:"  name="Option 3:>
+      <input type="Option 3:" class="form-control" id="Option 3:"  name="o3">
     </div>
     <div class="form-group">
       <label for="pwd">Option 4:</label>
-      <input type="Option 4:" class="form-control" id="Option 4:"  name="Option 4:">
+      <input type="Option 4:" class="form-control" id="Option 4:"  name="o4">
     </div>
     <div class="form-group">
       <label for="pwd">Answer</label>
-      <input type="Answer" class="form-control" id="Answer"  name="Answer">
+      <input type="Answer" class="form-control" id="Answer"  name="ans">
     </div>
     <div class="form-group">
       <label for="pwd">Marks:</label>
-      <input type="Marks" class="form-control" id="Marks"  name="Marks">
+      <input type="Marks" class="form-control" id="Marks"  name="marks">
     </div>
     <div class="form-group">
       <label for="difficulty">Difficulty:</label>
