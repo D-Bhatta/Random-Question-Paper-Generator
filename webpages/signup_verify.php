@@ -1,8 +1,8 @@
 <?php
 $servername = "localhost";
-$username = "root";
-$password = "";
-$database = "db";
+$username = "testuser";
+$password = "test123";
+$database = "testdb";
 
 // Create connection
 $conn = mysqli_connect($servername, $username, $password, $database);
@@ -21,7 +21,7 @@ if (!$conn) {
         $password = ($_POST["password"]);
         $email = ($_POST["email"]);
 				
-            $sql = "INSERT INTO members(name, email, password) values('$name','$email','$password')";
+            $sql = "INSERT INTO users(username, email, password) values('$name','$email','$password')";
 
 			if ($conn->query($sql) === TRUE) {
 				echo '<script type="text/javascript">window.location = "login.php"</script>';

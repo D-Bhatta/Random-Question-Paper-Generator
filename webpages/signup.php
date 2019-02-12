@@ -7,7 +7,7 @@
 				<img src="../images/signup.png" id="user">
 				<div class="form_input">
 					<input type="text" name="name" placeholder="Name">
-					<input type="email" name="Email" placeholder="Email">
+					<input type="text" name="email" placeholder="Email">
 					<br/>
 					<input type="password" name="password" placeholder="Password">
 					<br/>

@@ -23,9 +23,9 @@ $header=<<<'EOD'
 
 <table width=100%>
         <tr style="background:#002D59;">
-        <td><center><img src=../images/Logo/13.jpg" height="100px" weight="100px" alt="Logo"></center></td>
+        <td><center><img src="../images/logo.png" height="100px" weight="100px" alt="Logo"></center></td>
         <td style="text-align:center;font-size:36px;font-weight:bold; color:#FFF"><a href="index.php">Random Question Paper Generator</a></td>
-        <td><center><img src="../images/Logo/TgxTi8BF_400x400.jpg" height="100px" weight="100px" alt="Logo"></center></td>
+        <td><center><img src="../images/logo.png" height="100px" weight="100px" alt="Logo"></center></td>
     </tr>
 </table>
 
