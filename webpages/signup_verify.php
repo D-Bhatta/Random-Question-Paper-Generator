@@ -17,14 +17,19 @@ if (!$conn) {
 	$msg = "";
 	if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 		$name = $_POST["name"];
-		//$password = md5($_POST["password"]);
         $password = ($_POST["password"]);
         $email = ($_POST["email"]);
 				
             $sql = "INSERT INTO users(username, email, password) values('$name','$email','$password')";
 
-			if ($conn->query($sql) === TRUE) {
-				echo '<script type="text/javascript">window.location = "login.php"</script>';
+			$result = $conn->query($sql);
+
+			echo "<br></br>";
+
+			if ($result) 
+			{
+                echo '<script type="text/javascript">window.location = "login.php"</script>';
+                //echo "done";
 			} else {
 				echo "Error: " . $sql . "<br>" . $conn->error;
 			}

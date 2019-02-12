@@ -1,5 +1,4 @@
 <?php include("header.php"); ?>
-<form action="" method="POST">
 <body class="container">
 	<div class="login">
 		<div class="block1">

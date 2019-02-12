@@ -1,9 +1,8 @@
 <?php include("header.php"); ?>
-<form action="" method="POST">
 <body class="container">
 	<div class="login">
 		<div class="block1">
-			<form action="" method="POST">
+			<form name="frmsignup" action="signup_verify.php" method="post">
 				<img src="../images/signup.png" id="user">
 				<div class="form_input">
 					<input type="text" name="name" placeholder="Name">
@@ -13,16 +12,11 @@
 					<br/>
 					<br/>
 
-					<button type="submit" value="submit" class="btn-login">Signup</button>
+					<input type="submit" value="Submit" class="btn btn-primary">
 					<br/>
-					<div class="social_media">
-						<br/>
-						<a href="#" class="fa fa-facebook"></a>
-						<a href="#" class="fa fa-google"></a>
-						<a href="#" class="fa fa-github"></a>
-					</div>
-				</div>
+					
 			</form>
+			</div>
 		</div>
 	</div>
 </body>
