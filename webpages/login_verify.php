@@ -1,8 +1,8 @@
 <?php
 $servername = "localhost";
-$username = "root";
-$password = "";
-$database = "db";
+$username = "testuser";
+$password = "test123";
+$database = "testdb";
 
 // Create connection
 $conn = mysqli_connect($servername, $username, $password, $database);
@@ -22,13 +22,13 @@ if (!$conn) {
 		if ($name == '' || $password == '') {
 			$msg = "You must enter all fields";
 		} else {		
-			$sql = "SELECT * from members where name='$name' AND password='$password'";
+			$sql = "SELECT * from users where username='$name' AND password='$password'";
 			$result = $conn->query($sql);
 
 			if ($result->num_rows > 0) 
 			{
 				// output data of each row
-				echo '<script type="text/javascript">window.location = "admin.php"</script>';
+				echo '<script type="text/javascript">window.location = "index.php"</script>';
 			} else 
 			{
 				echo "Error: " . $sql . "<br>" . $conn->error;

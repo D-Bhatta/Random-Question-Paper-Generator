@@ -2,11 +2,11 @@
 <body class="container">
 	<div class="login">
 		<div class="block1">
-			<form action="" method="">
+			<form name="frmlogin" action="login_verify.php" method="post">
 				<img src="../images/user.png" id="user">
 				<img src="../images/Fuser.png" id="fuser">
 				<div class="form_input">
-					<input type="text" name="usr_name" placeholder="Username">
+					<input type="text" name="name" placeholder="Username">
 					<br/>
 					<input type="password" name="password" placeholder="Password">
 					<br/>
