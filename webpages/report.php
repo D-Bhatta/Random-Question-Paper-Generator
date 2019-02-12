@@ -3,7 +3,7 @@
 
 <div class="container">
   <h2>Report</h2>
-  <form action="verifi.php">
+  <form name="frmreport" action="report_verify.php" method="post">
     <div class="form-group">
       <input type="text" value="unameonfrm" id="unameonfrm" readonly name="unameonfrm" class="form-control">
       </div>
