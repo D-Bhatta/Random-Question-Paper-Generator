@@ -3,7 +3,7 @@
 
 <div class="container">
   <h2>Insert Questions</h2>
-  <form action="verify.php">
+  <form action="insqs_verify.php">
     <div class="form-group">
       <label for="email">Questions</label>
       <input type="Questions" class="form-control" id="Questions"  name="Questions">
