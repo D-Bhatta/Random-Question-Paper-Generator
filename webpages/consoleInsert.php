@@ -26,9 +26,24 @@ if (!$conn) {
  }else{
    ?>
 <table class="table">
+<script>
+$(document).ready(function(){
+    $('.button').click(function(){
+        var clickBtnValue = $(this).val();
+        var ajaxurl = 'consoleInsert.php',
+        data =  {'action': clickBtnValue};
+        $.post(ajaxurl, data, function (response) {
+            // Response div goes here.
+            alert("action performed successfully");
+        });
+    });
+
+});
+</script>
  <thead>
    <tr>
-	    <th>Question.</th>
+        <th>Index</th>
+	    <th>Question</th>
         <th>Option 1</th>
         <th>Option 2</th>
         <th>Option 3</th>
@@ -45,7 +60,8 @@ if (!$conn) {
        echo '<tr><td colspan="4">No Rows Returned</td></tr>';
      }else{
        while( $row = $result->fetch_array(MYSQLI_ASSOC) ){
-				 echo "<tr><td>{$row['slno']}</td><td>{$row['Question']}</td><td>{$row['Option1']}</td><td>{$row['Option2']}</td><td>{$row['Option3']}</td><td>{$row['Option4']}</td><td>{$row['Answer']}</td><td>{$row['marks']}</td><td>{$row['difficulty']}</td><td>{$row['subject']}</td></tr>\n";
+                 echo "<tr><td>{$row['slno']}</td><td>{$row['Question']}</td><td>{$row['Option1']}</td><td>{$row['Option2']}</td><td>{$row['Option3']}</td><td>{$row['Option4']}</td><td>{$row['Answer']}</td><td>{$row['marks']}</td><td>{$row['difficulty']}</td><td>{$row['subject']}</td>";
+                 echo "<td><form action =\"consoleInsertVerify.php\" method=\"post\"><input type=\"hidden\" name=\"slno\" value=\"<?php echo {$row['slno']}; ?>\"/><button type=\"submit\" class=\"btn btn-primary\" name=\"submit\" value=\"submit\">Submit</button></form></td></tr>\n";
        }
      }
    ?>
