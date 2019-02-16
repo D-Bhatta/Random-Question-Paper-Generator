@@ -19,7 +19,7 @@ if (!$conn) {
 }
 
 # Prepare the SELECT Query
- $sql = 'SELECT * FROM `reports`';
+ $sql = 'SELECT * FROM `report`';
 # Execute the SELECT Query
  if( !( $result = $conn->query($sql) ) ){
    echo 'Retrieval of data from Database Failed - #'.mysql_errno().': '.mysql_error();
