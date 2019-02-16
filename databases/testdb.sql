@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Feb 12, 2019 at 06:07 PM
+-- Generation Time: Feb 16, 2019 at 04:14 PM
 -- Server version: 10.1.37-MariaDB
 -- PHP Version: 7.2.12
 
@@ -29,7 +29,7 @@ USE `testdb`;
 --
 -- Table structure for table `econ_easy`
 --
--- Creation: Jan 29, 2019 at 09:21 PM
+-- Creation: Feb 16, 2019 at 10:56 AM
 --
 
 CREATE TABLE IF NOT EXISTS `econ_easy` (
@@ -41,7 +41,7 @@ CREATE TABLE IF NOT EXISTS `econ_easy` (
   `Option4` text NOT NULL,
   `Answer` int(11) NOT NULL,
   `marks` int(3) NOT NULL,
-  `Complexity` varchar(255) DEFAULT NULL,
+  `Complexity` varchar(255) DEFAULT '''easy''',
   PRIMARY KEY (`Qno`)
 ) ENGINE=InnoDB AUTO_INCREMENT=500 DEFAULT CHARSET=utf8;
 
@@ -3746,6 +3746,35 @@ INSERT INTO `gov_medium` (`Qno`, `Question`, `Option1`, `Option2`, `Option3`, `O
 -- --------------------------------------------------------
 
 --
+-- Table structure for table `insertqs`
+--
+-- Creation: Feb 12, 2019 at 07:53 PM
+--
+
+CREATE TABLE IF NOT EXISTS `insertqs` (
+  `slno` int(10) NOT NULL AUTO_INCREMENT,
+  `Question` varchar(255) NOT NULL,
+  `Option1` varchar(255) NOT NULL,
+  `Option2` varchar(255) NOT NULL,
+  `Option3` varchar(255) NOT NULL,
+  `Option4` varchar(255) NOT NULL,
+  `Answer` int(11) NOT NULL,
+  `marks` int(3) NOT NULL,
+  `difficulty` varchar(255) DEFAULT NULL,
+  `subject` varchar(255) NOT NULL,
+  PRIMARY KEY (`slno`)
+) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8;
+
+--
+-- Dumping data for table `insertqs`
+--
+
+INSERT INTO `insertqs` (`slno`, `Question`, `Option1`, `Option2`, `Option3`, `Option4`, `Answer`, `marks`, `difficulty`, `subject`) VALUES
+(3, 'a', 'a', 'a', 'a', 'a', 1, 1, 'easy', 'economics');
+
+-- --------------------------------------------------------
+
+--
 -- Table structure for table `orders`
 --
 -- Creation: Feb 10, 2019 at 10:12 AM
@@ -3760,7 +3789,7 @@ CREATE TABLE IF NOT EXISTS `orders` (
   `difficulty` varchar(255) NOT NULL,
   `marks` int(10) NOT NULL,
   PRIMARY KEY (`refno`)
-) ENGINE=InnoDB AUTO_INCREMENT=11 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=13 DEFAULT CHARSET=utf8;
 
 --
 -- Dumping data for table `orders`
@@ -3775,7 +3804,35 @@ INSERT INTO `orders` (`refno`, `userid`, `subject`, `new`, `completed`, `difficu
 (7, 'unameonfrm', 'economics', 0, 1, 'easy', 100),
 (8, 'unameonfrm', 'economics', 0, 1, 'easy', 100),
 (9, 'unameonfrm', 'government', 0, 1, 'medium', 100),
-(10, 'unameonfrm', 'economics', 1, 0, 'easy', 100);
+(10, 'unameonfrm', 'economics', 0, 1, 'easy', 100),
+(11, 'unameonfrm', 'economics', 0, 1, 'easy', 100),
+(12, 'unameonfrm', 'economics', 0, 1, 'easy', 100);
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `report`
+--
+-- Creation: Feb 12, 2019 at 08:37 PM
+--
+
+CREATE TABLE IF NOT EXISTS `report` (
+  `slno` int(10) NOT NULL AUTO_INCREMENT,
+  `username` varchar(255) NOT NULL,
+  `nstudents` varchar(255) NOT NULL,
+  `amarks` int(10) NOT NULL,
+  `hmarks` int(10) NOT NULL,
+  `lmarks` int(10) NOT NULL,
+  PRIMARY KEY (`slno`)
+) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8;
+
+--
+-- Dumping data for table `report`
+--
+
+INSERT INTO `report` (`slno`, `username`, `nstudents`, `amarks`, `hmarks`, `lmarks`) VALUES
+(1, 'unameonfrm', '100', 100, 100, 100),
+(2, 'unameonfrm', '100', 100, 100, 100);
 
 -- --------------------------------------------------------
 
@@ -3802,6 +3859,29 @@ INSERT INTO `subjects` (`slno`, `subject`, `easy`, `medium`, `hard`) VALUES
 (1, 'economics', 'econ_easy', 'econ_medium', 'econ_hard'),
 (2, 'government', 'gov_easy', 'gov_medium', 'gov_hard');
 
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `users`
+--
+-- Creation: Feb 12, 2019 at 06:54 PM
+--
+
+CREATE TABLE IF NOT EXISTS `users` (
+  `slno` int(10) NOT NULL AUTO_INCREMENT,
+  `username` varchar(255) NOT NULL,
+  `email` varchar(255) NOT NULL,
+  `password` varchar(255) NOT NULL,
+  PRIMARY KEY (`slno`)
+) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8;
+
+--
+-- Dumping data for table `users`
+--
+
+INSERT INTO `users` (`slno`, `username`, `email`, `password`) VALUES
+(1, 'a', 'a', 'a');
+
 
 --
 -- Metadata
@@ -3811,6 +3891,13 @@ USE `phpmyadmin`;
 --
 -- Metadata for table econ_easy
 --
+
+--
+-- Dumping data for table `pma__table_uiprefs`
+--
+
+INSERT INTO `pma__table_uiprefs` (`username`, `db_name`, `table_name`, `prefs`, `last_update`) VALUES
+('root', 'testdb', 'econ_easy', '{\"sorted_col\":\"`Qno` DESC\"}', '2019-02-16 11:31:22');
 
 --
 -- Metadata for table econ_hard
@@ -3833,11 +3920,23 @@ USE `phpmyadmin`;
 --
 
 --
+-- Metadata for table insertqs
+--
+
+--
 -- Metadata for table orders
 --
 
 --
+-- Metadata for table report
+--
+
+--
 -- Metadata for table subjects
+--
+
+--
+-- Metadata for table users
 --
 
 --
