@@ -2,7 +2,7 @@
 <body class="container">
 	<div class="login">
 		<div class="block1">
-		<form name="frmloginadmin" action="login_verify_admin.php" method="post">
+		<form name="frmloginadmin" action="login_verify_console.php" method="post">
 				<img src="../images/admin.png" id="admin">
 				<br/>
 				<div class="form_input">

@@ -34,7 +34,7 @@ if (!$conn) {
 			if ($result) 
 			{
 				// output data of each row
-				echo '<script type="text/javascript">window.location = "admin.php"</script>';
+				echo '<script type="text/javascript">window.location = "console.php"</script>';
 				//echo "done";
 			} else 
 			{
