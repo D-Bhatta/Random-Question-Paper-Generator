@@ -1,7 +1,7 @@
 <?php include("header.php"); ?>
 <body>
 
-<div class="container">
+<div class="container" style="overflow:auto;min-height:1000px;">
   <h2>Insert Questions</h2>
   <form name="frminsqs" action="insqs_verify.php" method="post">
     <div class="form-group">
@@ -45,12 +45,13 @@
       <select id = "subject" name="subject" class="form-control">
         <option value="economics">Economics</option>
         <option value="government">Government</option>
-        <option value="Sub3">Sub3</option>
+        <option value="history">History</option>
         <option value="Sub4">Sub4</option>
         <!--Add more subjects-->
       </select>
     <button type="submit" class="btn btn-primary" value="submit">Submit</button>
     <button type="reset"  class="btn btn-primary" value="reset">Reset</button>
   </form>
+</div>
 </div>
 <?php include("footer.php"); ?>

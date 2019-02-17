@@ -36,7 +36,7 @@
                 </div>
                 <div class="col-2 mx-auto my-auto">
                         <div class="card" style="width: 18rem;">
-                            <a href="report.php"><img class="card-img-top" src="../images/curve.gif" alt="Card image cap"></a>
+                            <a href="report.php"><img class="card-img-top" src="../images/curve.jpg" alt="Card image cap"></a>
                             <div class="card-body mb-2">
                                 <h5 class="card-title">Report</h5>
                                 <p class="card-text">Submit a report on the statistics of your exam!</p>

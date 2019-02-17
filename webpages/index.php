@@ -45,7 +45,7 @@
                     </div>
             </div>
             <div class="carousel-item">
-                    <img class="d-block w-100" src="../images/curve.gif" alt="">
+                    <img class="d-block w-100" src="../images/curve.jpg" alt="">
                     <div class="carousel-caption d-none d-md-block">
                             <h5>Report</h5>
                             <p>Submit statistics!</p>
@@ -123,7 +123,7 @@
                 </div>
                 <div class="col-2 mx-auto">
                         <div class="card" style="width: 18rem;">
-                            <a href="report.php"><img class="card-img-top" src="../images/curve.gif" alt="Card image cap"></a>
+                            <a href="report.php"><img class="card-img-top" src="../images/curve.jpg" alt="Card image cap"></a>
                             <div class="card-body mb-2">
                                 <h5 class="card-title">Report</h5>
                                 <p class="card-text">Submit a report on the statistics of your exam!</p>

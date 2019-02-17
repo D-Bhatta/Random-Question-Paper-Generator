@@ -10,7 +10,7 @@
             <select id = "subject" name="subject" class="form-control">
                 <option value="economics">Economics</option>
                 <option value="government">Government</option>
-                <option value="Sub3">Sub3</option>
+                <option value="history">History</option>
                 <option value="Sub4">Sub4</option>
                 <!--Add more subjects-->
             </select>
