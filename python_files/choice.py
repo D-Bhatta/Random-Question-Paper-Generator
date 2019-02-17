@@ -18,9 +18,7 @@ def ranq(n, nqs):
 
 def qknapsack(ransetqs,marks,tmarks):
     '''uses the knapsack algo to find the optimal selection of questions from a set ransetqs till the total weight w'''
-    val = [ 60, 100, 120 ]
-    wt = [ 10, 20, 30 ]
-    W = 50
+    #print('in qknapsack, ransetqs,marks,tmarks:',ransetqs,marks,tmarks)
     n = len(ransetqs)
     a = knapsack.printknapSack(tmarks, marks, ransetqs, n)
     return a

@@ -4,6 +4,7 @@
 # Prints the items which are put in a  
 # knapsack of capacity W 
 def printknapSack(W, wt, val, n): 
+    #print("in printknapSack:W, wt, val, n:",W, wt, val, n )
     qlist = [ ]
     mlist = []
     comblist = []

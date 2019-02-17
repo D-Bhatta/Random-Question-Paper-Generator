@@ -29,6 +29,7 @@ def qgs(tmarks_list,table_list,cursor):
         qlistin = project.pro_qselect(cursor, ransetqs,table)
 
         marks = project.pro_marks(qlistin)
+        #print('marks[] in qgs:',marks)
 
         a = choice.qknapsack(ransetqs,marks,tmarks)
         b = a[0]#these are the questions
