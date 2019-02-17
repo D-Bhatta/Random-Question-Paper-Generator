@@ -1,31 +1,5 @@
-.php>
-    <head>
-        <title>About</title>
-
-        </head>
-        <body>
-
-<table width=100%>
-    <tr>
-        <td>
-
-                <table width=100%>
-                        <tr style="background:#002D59;">
-                        <td><center><img src=../images/logo.png"13.jpg height="100px" weight="100px" alt="Logo"></center></td>
-                        <td style="text-align:center;font-size:36px;font-weight:bold; color:#FFF">Jis University</td>
-                        <td><center><img src="../images/logo.png"TgxTi8BF_400x400.jpg" height="100px" weight="100px" alt="Logo"></center></td>
-                    </tr>
-                </table>
-
-                <table width="100%" border="0">
-                        <tr>
-                            <td>
-                                <img src="../images/Banner/Braddon-Dental-Internal-Banner-About.png" width="100%" height="80%">
-                            </td>
-                        </tr>
-                    </table>
-
-                    <table width=100%>
+<?php include("header.php"); ?>
+       <table width=100%>
                         <tr>
                             <td>
                                 <br>
@@ -50,19 +24,4 @@
                             </td>
                         </tr>
                     </table>
-
-                    <table width="100%" border="0">
-                            <tr style="background-color: black"  bordercolor="#000099">
-                            
-                            <td style="text-align:center; font-size:24px; font-weight:bold;">
-                            <span style="color:#FFFFFF;">Developed By students of JISU</span><br/></td>
-                           
-                            </tr>
-                            </table>
-
-        </td>
-    </tr>
-    </table>
-        </body>
-
-        <.php>
+                    <?php include("footer.php"); ?>

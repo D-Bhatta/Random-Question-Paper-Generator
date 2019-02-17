@@ -53,6 +53,4 @@
     <button type="reset"  class="btn btn-primary" value="reset">Reset</button>
   </form>
 </div>
-
-</body>
-</html>
+<?php include("footer.php"); ?>

@@ -27,7 +27,4 @@
     <button type="reset"  class="btn btn-default">Reset</button>
   </form>
 </div>
-
-</body>
-</html>
-
+<?php include("footer.php"); ?>

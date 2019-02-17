@@ -164,36 +164,4 @@
 	
 	
 	
- 
-<!--
-
-
-	<div class="footer">
-	
-		
-		<div class="footer-logo">
-			Web Education Institute
-		</div>
-		
-		
-		
-		<div class="footer-list">
-		
-	
-		
-		<ul>
-			<li>
-				<a href="aboutus.php">About</a>
-			</li>
-			<li>
-				<a href="courses.php">Courses</a>
-			</li>
-			<li>
-				<a href="contact.php">Contact Us</a>
-			</li>
-		</ul>
-		
-		</div>
-	</div> 
-</body> 
-</html>
+<?php include("footer.php"); ?>

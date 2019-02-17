@@ -57,3 +57,4 @@ if (!$conn) {
  }
 
 ?>
+  <?php include("footer.php"); ?>
