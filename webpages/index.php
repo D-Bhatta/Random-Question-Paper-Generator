@@ -11,7 +11,7 @@
     <div class="carousel-inner">
         <div class="carousel-item active">
             <img class="d-block w-100" src="../images/logo.png" alt="">
-            <div class="carousel-caption d-none d-md-block text-primary ">
+            <div class="carousel-caption d-none d-md-block text-dark ">
                     <h5>Random Question Paper Generator</h5>
                     <p>Fast random question papers in PDF format</p>
             </div>
