@@ -1,6 +1,6 @@
 <?php include("header.php"); ?>
-<body class="container">
-	<div class="login">
+<body>
+	<div class="container">
 		<div class="block1">
 			<form name="frmlogin" action="login_verify.php" method="post">
 				<img src="../images/user.png" id="user">
