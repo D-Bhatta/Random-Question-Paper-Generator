@@ -11,7 +11,6 @@
                 <option value="economics">Economics</option>
                 <option value="government">Government</option>
                 <option value="history">History</option>
-                <option value="Sub4">Sub4</option>
                 <!--Add more subjects-->
             </select>
             </div>

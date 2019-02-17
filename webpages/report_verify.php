@@ -29,7 +29,7 @@ if (!$conn) {
 			if ($result) 
 			{
 				// output data of each row
-				echo '<script type="text/javascript">window.location = "index.php"</script>';
+				echo '<script type="text/javascript">window.location = "report.php"</script>';
 				//echo "done";
 			} else 
 			{

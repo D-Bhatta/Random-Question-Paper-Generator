@@ -28,7 +28,7 @@ if (!$conn) {
 			if ($result->num_rows > 0) 
 			{
 				// output data of each row
-				echo '<script type="text/javascript">window.location = "index.php"</script>';
+				echo '<script type="text/javascript">window.location = "consoleAdmin.php"</script>';
 			} else 
 			{
 				echo "Error: " . $sql . "<br>" . $conn->error;
