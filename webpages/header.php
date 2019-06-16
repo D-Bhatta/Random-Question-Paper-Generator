@@ -27,8 +27,10 @@ $header=<<<'EOD'
 </nav>
 <nav class="navbar navbar-expand-lg navbar-static-top navbar-dark bg-primary">
     <a class="navbar-brand" href="index.php">RQG</a>
-    <button class="navbar-toggler toggler-example" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation"><span class="dark-blue-text"><i class="fas fa-bars fa-1x"></i></span></button>
-    <div class="navbar-collapse offcanvas-collapse text-light" id="navbarSecond">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSecond" aria-controls="navbarSecond" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+    <div class="collapse navbar-collapse offcanvas-collapse text-light" id="navbarSecond">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item active">
             <a class="nav-link" href="genqpaper.php">Generate<span class="sr-only">(current)</span></a>
